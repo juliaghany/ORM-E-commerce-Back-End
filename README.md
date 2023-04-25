@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Link to demonstration video: 
+Link to demonstration video: https://drive.google.com/file/d/1qY3Hy4Fzhpp9ntVqeHOXMSDZW8lIWCIf/view
 
 ## Description 
 
@@ -58,7 +58,7 @@ This application is covered under the [MIT License](https://opensource.org/licen
 ## Credits
 
 - My tutor, Alex Gonzalez, helped me identify the issue with my Product CREATE and UPDATE operations, which resulted in a bad request response. He pointed out that I was missing the "tagIds" key in my JSON object. He also advised me to include onDelete: "CASCADE" to all of my associations. 
--   
+
 - I referenced this website for how to setup validations: https://sequelize.org/docs/v6/core-concepts/validations-and-constraints/
 
 - I referenced this website for setting default value: https://sebhastian.com/sequelize-default-value/
