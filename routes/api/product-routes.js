@@ -1,11 +1,8 @@
 const router = require('express').Router();
 const { Product, Category, Tag, ProductTag } = require('../../models');
 
-// REFERENCE ACTIVITY 9 FOR THIS FILE
-
 // The `/api/products` endpoint
 
-// CHECK THIS WITH TUTOR
 // get all products
 router.get('/', async (req, res) => {
   // find all products
@@ -108,7 +105,7 @@ router.put('/:id', (req, res) => {
       res.status(400).json(err);
     });
 });
-// CHECK THIS WITH TUTOR
+// delete a product by its 'id' value
 router.delete('/:id', async (req, res) => {
   try {
     const productData = await Product.destroy({
